@@ -9,10 +9,10 @@ const channel = {
 // File List - Direct from project root (no subfolder)
 const files = [
   {
-    name: "TESTING WEB",
-    desc: "LATEST STABLE VERSION WITH ESP + AIMBOT SUPPORT",
-    size: "1.26 MB",
-    link: "https://t.me/projectsharehmmodz" // direct root file
+    name: "PUBGM LOADER CRACKED",
+    desc: "LATEST STABLE VERSION WITH PUBGM LOADER CRACKED",
+    size: "36.8 MB",
+    link: "https://www.mediafire.com/file/ns10jeqpqiaj56g/HAHAHAHA+EASY+CRACKED+(1).apk/file" // direct root file
   },
   {
     name: "FF INJECTOR",
@@ -62,4 +62,5 @@ searchInput.addEventListener("input", () => {
     f.desc.toLowerCase().includes(q)
   );
   renderFiles(filtered);
+
 });
