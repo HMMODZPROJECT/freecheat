@@ -31,6 +31,18 @@ const files = [
     desc: "Loader, cracked key",
     size: "29 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
     link: "https://www.mediafire.com/file/4qaeb0onh0q998a/ZR+MODZ+OFFICIAL#cracked.apk/file" // direct root file
+  },
+  {
+    name: "Harley Cheat Cracked",
+    desc: "Cracked Login Key, Paste You Abstark key",
+    size: "14.28 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://www.mediafire.com/file/ob0fvf1r2hsgvcp/Harleycheat+Loader_4.0#Crackedbyhmmodz.apk/file" // direct root file
+  },
+  {
+    name: "Anime Play Modded Premium",
+    desc: "Premium Unlocked",
+    size: "17.1 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://www.mediafire.com/file/lgpf4fexwmyzvdk/AnimePlay_1.1.7.apk/file" // direct root file
   }
 ];
 
@@ -70,5 +82,6 @@ searchInput.addEventListener("input", () => {
   renderFiles(filtered);
 
 });
+
 
 
