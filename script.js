@@ -25,6 +25,12 @@ const files = [
     desc: "LibMain root user",
     size: "3.01 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
     link: "https://www.mediafire.com/file/xy95t5pebou9wre/libpatito.so/file" // direct root file
+  },
+  {
+    name: "Bloodstrike Loader",
+    desc: "Loader, cracked key",
+    size: "", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://www.mediafire.com/file/xy95t5pebou9wre/libpatito.so/file" // direct root file
   }
 ];
 
@@ -64,3 +70,4 @@ searchInput.addEventListener("input", () => {
   renderFiles(filtered);
 
 });
+
