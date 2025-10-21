@@ -43,6 +43,12 @@ const files = [
     desc: "Premium Unlocked",
     size: "17.1 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
     link: "https://www.mediafire.com/file/lgpf4fexwmyzvdk/AnimePlay_1.1.7.apk/file" // direct root file
+  },
+  {
+    name: "Arena Breakout Mod",
+    desc: "Mod Menu",
+    size: "1.21 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://mega.nz/file/RU8DAJwR#bAI8lz3lPNeNQkZa4HcMmN0Wxaj-EkqxvWuOlOw2094" // direct root file
   }
 ];
 
@@ -82,6 +88,7 @@ searchInput.addEventListener("input", () => {
   renderFiles(filtered);
 
 });
+
 
 
 
