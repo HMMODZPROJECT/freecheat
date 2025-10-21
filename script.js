@@ -21,16 +21,16 @@ const files = [
     link: "https://www.mediafire.com/file/voyxrwviutiw5bk/PANEL_ANDROID.zip/file" // direct root file
   },
   {
-    name: "Lib Cheat Pato",
-    desc: "LibMain root user",
-    size: "3.01 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
-    link: "https://www.mediafire.com/file/xy95t5pebou9wre/libpatito.so/file" // direct root file
+    name: "Injector ff",
+    desc: "Dark Aura Injektor cracked",
+    size: "19.7 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://www.mediafire.com/file/kuh441hy3gf0gsr/DARK+AURA#cracked.apk/file" // direct root file
   },
   {
     name: "Bloodstrike Loader",
     desc: "Loader, cracked key",
-    size: "", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
-    link: "https://www.mediafire.com/file/xy95t5pebou9wre/libpatito.so/file" // direct root file
+    size: "29 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
+    link: "https://www.mediafire.com/file/4qaeb0onh0q998a/ZR+MODZ+OFFICIAL#cracked.apk/file" // direct root file
   }
 ];
 
@@ -70,4 +70,5 @@ searchInput.addEventListener("input", () => {
   renderFiles(filtered);
 
 });
+
 
