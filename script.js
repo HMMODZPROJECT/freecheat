@@ -21,7 +21,7 @@ const files = [
     link: "https://www.mediafire.com/file/voyxrwviutiw5bk/PANEL_ANDROID.zip/file" // direct root file
   },
   {
-    name: "Injector ff",
+    name: "INJECTOR FF NEW OB50",
     desc: "Dark Aura Injektor cracked",
     size: "19.7 MB", // তোমার আগের সাইজে ভুল ছিল (একটা . বেশি)
     link: "https://www.mediafire.com/file/kuh441hy3gf0gsr/DARK+AURA#cracked.apk/file" // direct root file
@@ -82,6 +82,7 @@ searchInput.addEventListener("input", () => {
   renderFiles(filtered);
 
 });
+
 
 
 
