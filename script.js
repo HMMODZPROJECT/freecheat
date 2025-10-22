@@ -52,9 +52,9 @@ const files = [
   },
   {
     name: "FF Headtrick vip",
-    desc: "Headtrick vip",
+    desc: "Headtrick vip,Random Key acces",
     size: "14.2 MB",
-    link: "https://www.mediafire.com/file/apd5a29nwkiuja4/app_headtrik_albobx%25C2%25A1t%2523CrackedByhmmodz.apk/file"
+    link: "https://www.mediafire.com/file/h3vq1fj1dh8eozs/app+headtrik+albobx¡t#CrackedByhmmodz.apk/file"
   },
   {
     name: "PUBGM IMGUI",
