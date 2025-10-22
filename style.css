@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f101a, #1e1e2f);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  background: linear-gradient(90deg, #ff005c, #6100ff);
+  position: relative;
+}
+
+/* Logo container to hold glow */
+.logo-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+/* Logo image */
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Glow behind logo */
+.logo-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,0,0.5) 0%, transparent 70%);
+  filter: blur(25px);
+  z-index: 1;
+}
+
+/* Channel Info */
+.channel-info {
+  text-align: center;
+}
+
+.channel-info h1 {
+  margin: 5px 0 5px 0;
+  font-size: 32px;      /* bigger for visibility */
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.channel-info a {
+  color: #ffe600;
+  text-decoration: none;
+  font-size: 18px;      /* readable */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-top: 5px;
+}
+
+.channel-info a:hover {
+  text-decoration: underline;
+}
+
+.channel-info h1 {
+  margin: 5px 0 2px 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.channel-info a {
+  color: #ffe600;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.channel-info a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 30px;
+  text-align: center;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px auto;
+}
+.search-box input {
+  width: 90%;
+  max-width: 500px;
+  padding: 12px 16px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #222;
+  color: white;
+}
+
+.file-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.file-card {
+  background: #1a1b2e;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.05);
+  position: relative;
+}
+.file-card:hover {
+  transform: translateY(-5px);
+  border-color: #ff005c;
+}
+.file-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #00bfff;
+}
+.file-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 8px 0 12px;
+}
+.file-card .btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff005c, #6100ff);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.file-card .btn:hover {
+  background: linear-gradient(90deg, #ff2b7f, #742bff);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  border-top: 2px solid #222;
+  color: #aaa;
+}
+footer a {
+  color: #ff4da6;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
