@@ -8,7 +8,7 @@ const channel = {
 
 // File List
 const files = [
-  {
+   {
     name: "PUBGM LOADER CRACKED",
     desc: "LATEST STABLE VERSION WITH PUBGM LOADER CRACKED",
     size: "36.8 MB",
@@ -110,4 +110,36 @@ searchInput.addEventListener("input", () => {
     f.desc.toLowerCase().includes(q)
   );
   renderFiles(filtered);
+});
+
+// ==== HM MODZ MENU INTERAKSI ====
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuBtn = document.getElementById("menuBtn");
+  const sidePanel = document.getElementById("sidePanel");
+
+  // Klik ikon => buka/tutup panel
+  menuBtn.addEventListener("click", () => {
+    sidePanel.classList.toggle("show");
+  });
+
+  // Klik di luar panel => tutup
+  document.addEventListener("click", (e) => {
+    if (!sidePanel.contains(e.target) && !menuBtn.contains(e.target)) {
+      sidePanel.classList.remove("show");
+    }
+  });
+
+  // Tombol-tombol menu
+  document.getElementById("chatOwner").addEventListener("click", () => {
+    alert("Chat Owner diklik");
+  });
+
+  document.getElementById("webLainnya").addEventListener("click", () => {
+    alert("Web Lainnya diklik");
+  });
+
+  document.getElementById("backToMenu").addEventListener("click", () => {
+    alert("Back ke menu utama");
+  });
 });
