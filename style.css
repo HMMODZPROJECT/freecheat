@@ -177,3 +177,222 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.logo-text {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.menu-icon {
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+body {
+  margin-top: 70px;
+}
+
+/* === SIDE MENU === */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  width: 250px;
+  height: 100vh;
+  background: linear-gradient(180deg, #1a1a1a, #121212);
+  color: #fff;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.5);
+  transition: right 0.35s ease-in-out;
+  z-index: 998;
+  border-left: 2px solid #ff00cc;
+}
+
+.side-menu.active {
+  right: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 80px 25px;
+  margin: 0;
+}
+
+.side-menu ul li {
+  margin-bottom: 25px;
+}
+
+.side-menu ul li a {
+  display: block;
+  padding: 12px 15px;
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
+
+.side-menu ul li a:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  transform: rotate(90deg);
+}
+
+{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f101a, #1e1e2f);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  background: linear-gradient(90deg, #ff005c, #6100ff);
+  position: relative;
+}
+
+/* Logo container to hold glow */
+.logo-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+/* Logo image */
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+}
+/* ==== HM MODZ MENU BAR ==== */
+
+/* Kontainer menu */
+.hm-menu {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  z-index: 9999;
+}
+
+/* Tombol menu (ikon garis tiga) */
+.menu-btn img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 6px;
+  transition: all 0.3s ease;
+}
+
+.menu-btn img:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* ==== PANEL MENU FIX (menempel di atas) ==== */
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -180px;
+  width: 160px;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.7); /* sedikit lebih gelap agar kontras */
+  backdrop-filter: blur(10px);
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+  transition: left 0.4s ease;
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* biar isi mulai dari atas */
+  padding-top: 80px; /* jarak sedikit dari atas supaya tidak nabrak icon */
+}
+
+/* Biar isi rata atas & tetap rapi */
+.side-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.side-panel ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.side-panel ul li a {
+  display: block;
+  padding: 12px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.side-panel ul li a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffcc00;
+}
+
+.side-panel.show {
+  left: 0;
+  }
