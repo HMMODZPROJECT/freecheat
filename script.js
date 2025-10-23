@@ -61,7 +61,13 @@ const files = [
     desc: "Imgui safe",
     size: "67.8 MB",
     link: "https://www.mediafire.com/file/apd5a29nwkiuja4/app_headtrik_albobx%25C2%25A1t%2523CrackedByhmmodz.apk/file"
-  }
+  },
+    {
+    name: "Ankus Panel CRACKED",
+    desc: "Cracked Key, Random Key, Use In root app",
+    size: "7.8 Mb",
+    link: "https://www.mediafire.com/file/apd5a29nwkiuja4/app_headtrik_albobx%25C2%25A1t%2523CrackedByhmmodz.apk/file"
+    }
 ];
 
 // Set Channel Info
